@@ -1,0 +1,1486 @@
+@media screen and (min-width:1520px) and (max-width:1700px){
+    /* 신제품 */
+    #newproduct{
+        padding: 0 70px;
+    }
+    /* //신제품 */
+    /* 중간메뉴 */
+    #dotmenu{
+        width: 70%;
+    }
+    /* //중간메뉴 */
+    /* 전제품 */
+    #allproduct{
+        padding: 0 70px;
+    }
+    /* //전제품 */
+}
+
+@media screen and (min-width:1430px) and (max-width:1519px){
+    /* 슬로건페이지 */
+    #slogan{
+        height: 620px;
+    }
+    /* //슬로건페이지 */
+    /* 배너 */
+    #banner{
+        width: 1400px;
+        height: 260px;
+    }
+    #banner h2{
+        padding: 75px 0 0 115px;
+    }
+    /* //배너 */
+    /* 신제품 */
+    #newproduct{
+        padding: 0 60px;
+    }
+    .newboxs{
+        gap: 70px;
+    }
+    /* //신제품 */
+    /* 중간메뉴 */
+    #dotmenu{
+        width: 70%;
+    }
+    /* //중간메뉴 */
+    /* 전제품 */
+    #A-product{
+        gap: 70px;
+    }
+    #allproduct{
+        padding: 0 60px;
+    }
+    /* //전제품 */
+    /* 상하단버튼 */
+    #udbtn{
+        bottom: 40px;
+        right: 40px;
+    }
+    /* //상하단버튼 */
+}
+
+@media screen and (min-width:1280px) and (max-width:1429px){
+    body{
+        font-size: 15px;
+    }
+    /* header */
+    header{
+        padding: 70px 70px 0 70px;
+    }
+    /* //header */
+    /* 슬로건페이지 */
+    #slogan{
+        height: 520px;
+    }
+    #slogan p{
+        padding-top: 130px;
+    }
+    /* //슬로건페이지 */
+    /* 배너 */
+    #banner{
+        width: 1200px;
+        height: 230px;
+    }
+    #banner h2{
+        padding: 55px 0 0 65px;
+    }
+    #banner p{
+        padding: 20px 0 0 280px;
+    }
+    /* //배너 */
+    /* 신제품 */
+    #newproduct{
+        padding: 0 50px;
+    }
+    .newboxs{
+        gap: 50px;
+    }
+    /* //신제품 */
+    /* 중간메뉴 */
+    #dotmenu{
+        width: 70%;
+    }
+    /* //중간메뉴 */
+    /* 전제품 */
+    #A-product{
+        gap: 50px;
+    }
+    #allproduct{
+        padding: 0 50px;
+    }
+    /* //전제품 */
+    /* 상하단버튼 */
+    #udbtn{
+        bottom: 40px;
+        right: 40px;
+    }
+    /* //상하단버튼 */
+}
+
+@media screen and (min-width:1170px) and (max-width:1279px){
+    body{
+        font-size: 15px;
+    }
+    /* header */
+    header{
+        padding: 70px 50px 0 50px;
+    }
+    .hwrap{
+        height: 67px;
+    }
+    .login{
+        margin-right: 20px;
+    }
+    /* //header */
+    /* logo */
+    .hwrap h1 a img{
+        width: 380px;
+    }
+    /* //logo */
+    /* 슬로건페이지 */
+    #slogan{
+        height: 470px;
+    }
+    #slogan p{
+        padding-top: 130px;
+        font-size: 4em;
+    }
+    /* //슬로건페이지 */
+    /* 배너 */
+    #banner{
+        width: 1100px;
+        height: 210px;
+    }
+    #banner h2{
+        padding: 55px 0 0 65px;
+        font-size: 2.666em;
+    }
+    #banner p{
+        padding: 20px 0 0 265px;
+        font-size: 1.666em;
+    }
+    /* //배너 */
+    /* 신제품 */
+    #newproduct{
+        padding: 0 50px;
+    }
+    #newproduct h2{
+        font-size: 3.333em;
+    }
+    .newboxs{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 70px;
+    }
+    /* //신제품 */
+    /* 중간메뉴 */
+    #dotmenu{
+        width: 85%;
+    }
+    /* //중간메뉴 */
+    /* 전제품 */
+    #A-product{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 70px;
+    }
+    #allproduct{
+        padding: 0 50px;
+    }
+    #allproduct>p{
+        font-size: 3.333em;
+    }
+    /* //전제품 */
+    /* 상하단버튼 */
+    #udbtn{
+        bottom: 40px;
+        right: 40px;
+    }
+    /* //상하단버튼 */
+}
+
+@media screen and (min-width:970px) and (max-width:1169px){
+    body{
+        font-size: 15px;
+    }
+    /* header */
+    header{
+        height: 180px;
+        padding: 60px 50px 0 50px;
+    }
+    .hwrap{
+        height: 67px;
+    }
+    .hwrap .menu span{
+        display: none;
+    }
+    .hwrap .close span{
+        display: none;
+    }
+    .login{
+        margin-right: 55px;
+    }
+    .login span{
+        display: none;
+    }
+    .cart span{
+        display: none;
+    }
+    /* //header */
+    /* 메뉴 */
+    .menubg{
+        top: 180px;
+    }
+    .menubg .menu::before{
+        width: 870px;
+    }
+    .menubg .menu::after{
+        width: 870px;
+    }
+    /* //메뉴 */
+    /* logo */
+    .hwrap h1 a img{
+        width: 380px;
+    }
+    /* //logo */
+    /* 슬로건페이지 */
+    #slogan{
+        height: 420px;
+    }
+    #slogan p{
+        padding-top: 130px;
+        font-size: 3.333em;
+    }
+    /* //슬로건페이지 */
+    /* 배너 */
+    #banner{
+        width: 900px;
+        height: 175px;
+        margin: 75px 50% 0;
+    }
+    #banner h2{
+        padding: 40px 0 0 43px;
+        font-size: 2.333em;
+    }
+    #banner p{
+        padding: 15px 0 0 210px;
+        font-size: 1.666em;
+    }
+    /* //배너 */
+    /* 신제품 */
+    #newproduct{
+        padding: 0 50px;
+        margin-top: 150px;
+    }
+    #newproduct h2{
+        font-size: 3em;
+        margin-bottom: 70px;
+    }
+    .newboxs{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 70px 40px;
+    }
+    /* //신제품 */
+    /* 중간메뉴 */
+    #dotmenu{
+        width: 85%;
+    }
+    #dotmenu a{
+        width: 150px;
+        height: 150px;
+    }
+    #dotmenu a:nth-child(2) img{
+        margin-top: 10px;
+        width: 90px;
+    }
+    #dotmenu a:nth-child(3) img{
+        margin-top: 10px;
+        width: 80px;
+    }
+    #dotmenu a:nth-child(4) img{
+        margin-top: 20px;
+        width: 60px;
+    }
+    #dotmenu a:nth-child(5) img{
+        margin-top: 20px;
+        width: 75px;
+    }
+    #dotmenu a h3{
+        bottom: 25px;
+    }
+    /* //중간메뉴 */
+    /* 정렬순 */
+    #align li .align{
+        font-size: 1.333em;
+    }
+    /* //정렬순 */
+    /* 전제품 */
+    #A-product{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 70px 40px;
+        margin-top: 70px;
+    }
+    #allproduct{
+        padding: 0 50px;
+        margin-top: 200px;
+    }
+    #allproduct>p{
+        font-size: 3.333em;
+        margin-bottom: 70px;
+    }
+    #allproduct>p br{
+        display: block !important;
+    }
+    #A-product .product .pick img{
+        width: 110px;
+    }
+    #A-product .product .pick span{
+        font-size: 1em;
+        top: 12px;
+        left: 20px;
+    }
+    /* //전제품 */
+    /* 전제품 더보기 */
+    .allmore{
+        margin-top: 100px;
+        margin-bottom: 180px;
+    }
+    .allmore img{
+        width: 40px;
+    }
+    .allmore span{
+        font-size: 1.666em;
+    }
+    /* //전제품 더보기 */
+    /* footer */
+    footer{
+        height: 530px;
+        padding: 55px 50px 0 50px;
+    }
+    .fmenu li a{
+        font-size: 1.333em;
+    }
+    .fcontent{
+        font-size: 1em;
+        margin-top: 50px;
+    }
+    /* //footer */
+    /* 상하단버튼 */
+    #udbtn{
+        width: 60px;
+        height: 130px;
+        bottom: 40px;
+        right: 40px;
+    }
+    #top{
+        width: 60px;
+        height: 60px;
+    }
+    #top img{
+        width: 60px;
+        height: 60px;
+    }
+    #bottom{
+        width: 60px;
+        height: 60px;
+    }
+    #bottom img{
+        width: 60px;
+        height: 60px;
+    }
+    /* //상하단버튼 */
+}
+
+@media screen and (min-width:769px) and (max-width:969px){
+    body{
+        font-size: 15px;
+    }
+    /* header */
+    header{
+        height: 160px;
+        padding: 55px 50px 0 50px;
+    }
+    .hwrap{
+        height: 55px;
+    }
+    .hwrap .menu span{
+        display: none;
+    }
+    .hwrap .menu img{
+        width: 28px;
+    }
+    .hwrap .close span{
+        display: none;
+    }
+    .hwrap .close img{
+        width: 28px;
+    }
+    .login{
+        margin-right: 40px;
+    }
+    .login span{
+        display: none;
+    }
+    .login img{
+        width: 18px;
+    }
+    .cart span{
+        display: none;
+    }
+    .cart img{
+        width: 24px;
+    }
+    /* //header */
+    /* 메뉴 */
+    .menubg{
+        height: 140px;
+        top: 160px;
+    }
+    .menubg .menu::before{
+        width: 700px;
+    }
+    .menubg .menu::after{
+        width: 700px;
+    }
+    .menubg .menu li a{
+        font-size: 1.666em;
+        line-height: 140px;
+    }
+    /* //메뉴 */
+    /* logo */
+    .hwrap h1 a img{
+        width: 310px;
+    }
+    /* //logo */
+    /* 슬로건페이지 */
+    #slogan{
+        height: 400px;
+        background-image: url(../img/main1.jpg);
+    }
+    #slogan p{
+        padding-top: 120px;
+        font-size: 3.333em;
+        text-align: left;
+        padding-left: 70px;
+    }
+    /* //슬로건페이지 */
+    /* 배너 */
+    #banner{
+        width: 690px;
+        height: 150px;
+        margin: 65px 50% 0;
+        background-position: right;
+    }
+    #banner h2{
+        padding: 40px 0 0 30px;
+        font-size: 1.666em;
+    }
+    #banner p{
+        padding: 15px 0 0 145px;
+        font-size: 1.2em;
+    }
+    /* //배너 */
+    /* 신제품 */
+    #newproduct{
+        padding: 0 50px;
+        margin-top: 120px;
+    }
+    #newproduct h2{
+        font-size: 2.666em;
+        margin-bottom: 60px;
+    }
+    .newboxs{
+        grid-template-columns: 1fr 1fr;
+        gap: 70px 55px;
+    }
+    /* //신제품 */
+    /* 중간메뉴 */
+    #dotmenu{
+        width: 90%;
+    }
+    #dotmenu a{
+        width: 130px;
+        height: 130px;
+    }
+    #dotmenu a:nth-child(2) img{
+        margin-top: 15px;
+        width: 70px;
+    }
+    #dotmenu a:nth-child(3) img{
+        margin-top: 15px;
+        width: 70px;
+    }
+    #dotmenu a:nth-child(4) img{
+        margin-top: 25px;
+        width: 50px;
+    }
+    #dotmenu a:nth-child(5) img{
+        margin-top: 25px;
+        width: 55px;
+    }
+    #dotmenu a h3{
+        bottom: 20px;
+        font-size: 1.333em;
+    }
+    /* //중간메뉴 */
+    /* 정렬순 */
+    #align li .align{
+        font-size: 1.333em;
+    }
+    #align li .align::after{
+        margin: 0 10px;
+    }
+    /* //정렬순 */
+    /* 전제품 */
+    #A-product{
+        grid-template-columns: 1fr 1fr;
+        gap: 70px 55px;
+        margin-top: 70px;
+    }
+    #allproduct{
+        padding: 0 50px;
+        margin-top: 180px;
+    }
+    #allproduct>p{
+        font-size: 2.666em;
+        margin-bottom: 70px;
+        margin-top: 120px;
+    }
+    #allproduct>p br{
+        display: block !important;
+    }
+    #A-product .product .pick img{
+        width: 110px;
+    }
+    #A-product .product .pick span{
+        font-size: 1em;
+        top: 12px;
+        left: 20px;
+    }
+    /* //전제품 */
+    /* 전제품 더보기 */
+    .allmore{
+        margin-top: 70px;
+        margin-bottom: 120px;
+    }
+    .allmore img{
+        width: 35px;
+    }
+    .allmore span{
+        font-size: 1.333em;
+    }
+    /* //전제품 더보기 */
+    /* footer */
+    footer{
+        height: 485px;
+        padding: 55px 0 0 0;
+    }
+    footer>img{
+        display: none;
+    }
+    .fmenu{
+        margin-top: 0;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .fmenu li a{
+        font-size: 1.333em;
+        padding-top: 10px;
+        padding-right: 0;
+    }
+    footer>span{
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #8D8D8D;
+        margin-top: 40px;
+    }
+    .fcontent{
+        font-size: 1em;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+    }
+    /* //footer */
+    /* 상하단버튼 */
+    #udbtn{
+        width: 60px;
+        height: 130px;
+        bottom: 30px;
+        right: 30px;
+    }
+    #top{
+        width: 60px;
+        height: 60px;
+    }
+    #top img{
+        width: 60px;
+        height: 60px;
+    }
+    #bottom{
+        width: 60px;
+        height: 60px;
+    }
+    #bottom img{
+        width: 60px;
+        height: 60px;
+    }
+    /* //상하단버튼 */
+}
+
+@media screen and (min-width:615px) and (max-width:768px){
+    body{
+        font-size: 14px;
+    }
+    /* header */
+    header{
+        height: 140px;
+        padding: 50px 40px 0 40px;
+    }
+    .hwrap{
+        height: 50px;
+    }
+    .hwrap .menu span{
+        display: none;
+    }
+    .hwrap .menu img{
+        width: 28px;
+    }
+    .hwrap .close span{
+        display: none;
+    }
+    .hwrap .close img{
+        width: 28px;
+    }
+    .login{
+        margin-right: 25px;
+    }
+    .login span{
+        display: none;
+    }
+    .login img{
+        width: 18px;
+    }
+    .cart span{
+        display: none;
+    }
+    .cart img{
+        width: 24px;
+    }
+    /* //header */
+    /* 메뉴 */
+    .menubg{
+        height: 120px;
+        top: 140px;
+    }
+    .menubg .menu::before{
+        width: 570px;
+        height: 2px;
+    }
+    .menubg .menu::after{
+        width: 570px;
+        height: 2px;
+    }
+    .menubg .menu li a{
+        font-size: 1.666em;
+        line-height: 120px;
+        padding: 0 30px;
+    }
+    /* //메뉴 */
+    /* logo */
+    .hwrap h1 a img{
+        width: 280px;
+    }
+    /* //logo */
+    /* 슬로건페이지 */
+    #slogan{
+        height: 350px;
+        background-image: url(../img/main1.jpg);
+    }
+    #slogan p{
+        padding-top: 120px;
+        font-size: 2.857em;
+        text-align: left;
+        padding-left: 50px;
+    }
+    /* //슬로건페이지 */
+    /* 배너 */
+    #banner{
+        width: 570px;
+        height: 130px;
+        margin: 65px 50% 0;
+        background-position: right;
+    }
+    #banner h2{
+        padding: 35px 0 0 25px;
+        font-size: 1.4285em;
+    }
+    #banner p{
+        padding: 15px 0 0 115px;
+        font-size: 1em;
+    }
+    /* //배너 */
+    /* 신제품 */
+    #newproduct{
+        padding: 0 40px;
+        margin-top: 100px;
+    }
+    #newproduct h2{
+        font-size: 2.5em;
+        margin-bottom: 50px;
+    }
+    .newboxs{
+        grid-template-columns: 1fr 1fr;
+        gap: 70px 55px;
+    }
+    /* //신제품 */
+    /* 중간메뉴 */
+    #dotmenu{
+        width: 100%;
+    }
+    #dotmenu a{
+        width: 110px;
+        height: 110px;
+    }
+    #dotmenu a:nth-child(2) img{
+        margin-top: 12px;
+        width: 60px;
+    }
+    #dotmenu a:nth-child(3) img{
+        margin-top: 12px;
+        width: 60px;
+    }
+    #dotmenu a:nth-child(4) img{
+        margin-top: 22px;
+        width: 40px;
+    }
+    #dotmenu a:nth-child(5) img{
+        margin-top: 22px;
+        width: 45px;
+    }
+    #dotmenu a h3{
+        bottom: 18px;
+        font-size: 1.1428em;
+    }
+    /* //중간메뉴 */
+    /* 정렬순 */
+    #align li .align{
+        font-size: 1.0714em;
+    }
+    #align li .align::after{
+        margin: 0 8px;
+        height: 25px;
+    }
+    #align li:nth-child(6){
+        line-height: 25px;
+    }
+    /* //정렬순 */
+    /* 전제품 */
+    #A-product{
+        grid-template-columns: 1fr 1fr;
+        gap: 70px 55px;
+        margin-top: 40px;
+    }
+    #allproduct{
+        padding: 0 50px;
+        margin-top: 150px;
+    }
+    #allproduct>p{
+        font-size: 2.5em;
+        margin-bottom: 40px;
+        margin-top: 100px;
+    }
+    #allproduct>p br{
+        display: block !important;
+    }
+    #A-product .product .pick img{
+        width: 100px;
+    }
+    #A-product .product .pick span{
+        font-size: 1em;
+        top: 10px;
+        left: 18px;
+    }
+    /* //전제품 */
+    /* 전제품 더보기 */
+    .allmore{
+        margin-top: 70px;
+        margin-bottom: 120px;
+    }
+    .allmore img{
+        width: 35px;
+    }
+    .allmore span{
+        font-size: 1.333em;
+    }
+    /* //전제품 더보기 */
+    /* footer */
+    footer{
+        height: 485px;
+        padding: 30px 0 0 0;
+    }
+    footer>img{
+        display: none;
+    }
+    .fmenu{
+        margin-top: 0;
+        flex-wrap: wrap;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .fmenu li a{
+        font-size: 1.333em;
+        padding: 10px 30px 10px 30px;
+    }
+    footer>span{
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #8D8D8D;
+        margin-top: 30px;
+    }
+    .fcontent{
+        font-size: 1em;
+        margin-top: 35px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+    }
+    .fcontent p br:nth-child(2),
+    .fcontent p br:nth-child(3){
+        display: block !important;
+    }
+    .fcontent p:nth-child(2){
+        margin-top: 50px;
+    }
+    /* //footer */
+    /* 상하단버튼 */
+    #udbtn{
+        width: 50px;
+        height: 110px;
+        bottom: 30px;
+        right: 30px;
+    }
+    #top{
+        width: 50px;
+        height: 50px;
+    }
+    #top img{
+        width: 50px;
+        height: 50px;
+    }
+    #bottom{
+        width: 50px;
+        height: 50px;
+    }
+    #bottom img{
+        width: 50px;
+        height: 50px;
+    }
+    /* //상하단버튼 */
+}
+
+@media screen and (min-width:480px) and (max-width:614px){
+    body{
+        font-size: 13px;
+    }
+    /* header */
+    header{
+        height: 140px;
+        padding: 50px 20px 0 20px;
+    }
+    .hwrap{
+        height: 42px;
+    }
+    .hwrap .menu span{
+        display: none;
+    }
+    .hwrap .menu img{
+        width: 28px;
+    }
+    .hwrap .close span{
+        display: none;
+    }
+    .hwrap .close img{
+        width: 28px;
+    }
+    .login{
+        margin-right: 20px;
+    }
+    .login span{
+        display: none;
+    }
+    .login img{
+        width: 18px;
+    }
+    .cart span{
+        display: none;
+    }
+    .cart img{
+        width: 24px;
+    }
+    /* //header */
+    /* 메뉴 */
+    .menubg{
+        height: 120px;
+        top: 140px;
+    }
+    .menubg .menu::before{
+        width: 450px;
+        height: 2px;
+    }
+    .menubg .menu::after{
+        width: 450px;
+        height: 2px;
+    }
+    .menubg .menu li a{
+        font-size: 1.666em;
+        line-height: 120px;
+        padding: 0 30px;
+    }
+    /* //메뉴 */
+    /* logo */
+    .hwrap h1 a img{
+        width: 240px;
+    }
+    /* //logo */
+    /* 슬로건페이지 */
+    #slogan{
+        height: 320px;
+        background-image: url(../img/main1.jpg);
+    }
+    #slogan p{
+        padding-top: 100px;
+        font-size: 2.6923em;
+        text-align: left;
+        padding-left: 30px;
+    }
+    /* //슬로건페이지 */
+    /* 배너 */
+    #banner{
+        width: 460px;
+        height: 110px;
+        margin: 40px 50% 0;
+        background-position: right;
+    }
+    #banner h2{
+        padding: 30px 0 0 25px;
+        font-size: 1.1538em;
+    }
+    #banner p{
+        padding: 10px 0 0 77px;
+        font-size: 1em;
+    }
+    /* //배너 */
+    /* 신제품 */
+    #newproduct{
+        padding: 0 20px;
+        margin-top: 60px;
+    }
+    #newproduct h2{
+        font-size: 2.3076em;
+        margin-bottom: 30px;
+    }
+    .newboxs{
+        grid-template-columns: 1fr 1fr;
+        gap: 50px 30px;
+    }
+    .newboxs dl .hashtag span{
+        display: none;
+    }
+    .newboxs dl .title{
+        font-size: 1.2307em;
+        line-height: 30px;
+    }
+    .newboxs dl .price{
+        margin-top: 20px;
+    }
+    .newboxs dl .price .p1{
+        font-size: 1.1538em;
+    }
+    .newboxs dl .price .p2{
+        font-size: 1em;
+        padding-left: 13px;
+    }
+    .newboxs dl .price .p3{
+        font-size: 1.1538em;
+        padding-left: 13px;
+    }
+    /* //신제품 */
+    /* 중간메뉴 */
+    #dotmenu{
+        width: 100%;
+    }
+    #dotmenu a{
+        width: 90px;
+        height: 90px;
+    }
+    #dotmenu a:nth-child(2) img{
+        margin-top: 10px;
+        width: 45px;
+    }
+    #dotmenu a:nth-child(3) img{
+        margin-top: 10px;
+        width: 45px;
+    }
+    #dotmenu a:nth-child(4) img{
+        margin-top: 20px;
+        width: 25px;
+    }
+    #dotmenu a:nth-child(5) img{
+        margin-top: 20px;
+        width: 30px;
+    }
+    #dotmenu a h3{
+        bottom: 12px;
+        font-size: 1em;
+    }
+    /* //중간메뉴 */
+    /* 정렬순 */
+    #align li .align{
+        font-size: 1em;
+    }
+    #align li .align::after{
+        margin: 0 5px;
+        height: 20px;
+    }
+    #align li:nth-child(6){
+        line-height: 20px;
+    }
+    /* //정렬순 */
+    /* 전제품 */
+    #A-product{
+        grid-template-columns: 1fr 1fr;
+        gap: 50px 30px;
+        margin-top: 40px;
+    }
+    #allproduct{
+        padding: 0 20px;
+        margin-top: 100px;
+    }
+    #allproduct>p{
+        font-size: 2.3076em;
+        margin-bottom: 40px;
+        margin-top: 60px;
+    }
+    #allproduct>p br{
+        display: block !important;
+    }
+    #A-product .product .pick img{
+        width: 90px;
+    }
+    #A-product .product .pick span{
+        font-size: 1em;
+        top: 9px;
+        left: 15px;
+    }
+    #A-product dl .hashtag span{
+        display: none;
+    }
+    #A-product dl .title{
+        font-size: 1.2307em;
+        line-height: 30px;
+    }
+    #A-product dl .price{
+        margin-top: 20px;
+    }
+    #A-product dl .price .p1{
+        font-size: 1.1538em;
+    }
+    #A-product dl .price .p2{
+        font-size: 1em;
+        padding-left: 13px;
+    }
+    #A-product dl .price .p3{
+        font-size: 1.1538em;
+        padding-left: 13px;
+    }
+    /* //전제품 */
+    /* 전제품 더보기 */
+    .allmore{
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
+    .allmore img{
+        width: 32px;
+    }
+    .allmore span{
+        font-size: 1.333em;
+    }
+    /* //전제품 더보기 */
+    /* footer */
+    footer{
+        height: 410px;
+        padding: 20px 0 0 0;
+    }
+    footer>img{
+        display: none;
+    }
+    .fmenu{
+        margin-top: 0;
+        flex-wrap: wrap;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .fmenu li a{
+        font-size: 1.2307em;
+        padding: 10px 30px 10px 0px;
+    }
+    footer>span{
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #8D8D8D;
+        margin-top: 20px;
+    }
+    .fcontent{
+        font-size: 1em;
+        margin-top: 25px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+    }
+    .fcontent p:nth-child(1){
+        line-height: 35px;
+    }
+    .fcontent p br:nth-child(2),
+    .fcontent p br:nth-child(3){
+        display: block !important;
+    }
+    .fcontent p:nth-child(2){
+        margin-top: 40px;
+    }
+    /* //footer */
+    /* 상하단버튼 */
+    #udbtn{
+        width: 40px;
+        height: 90px;
+        bottom: 25px;
+        right: 25px;
+    }
+    #top{
+        width: 40px;
+        height: 40px;
+    }
+    #top img{
+        width: 40px;
+        height: 40px;
+    }
+    #bottom{
+        width: 40px;
+        height: 40px;
+    }
+    #bottom img{
+        width: 40px;
+        height: 40px;
+    }
+    /* //상하단버튼 */
+}
+
+@media screen and (max-width:479px){
+    body{
+        font-size: 12px;
+    }
+    /* header */
+    header{
+        height: 120px;
+        padding: 40px 20px 0 20px;
+    }
+    .hwrap{
+        height: 38px;
+    }
+    .hwrap .menu span{
+        display: none;
+    }
+    .hwrap .menu img{
+        width: 20px;
+    }
+    .hwrap .close span{
+        display: none;
+    }
+    .hwrap .close img{
+        width: 20px;
+    }
+    .login{
+        margin-right: 10px;
+    }
+    .login span{
+        display: none;
+    }
+    .login img{
+        width: 15px;
+    }
+    .cart span{
+        display: none;
+    }
+    .cart img{
+        width: 18px;
+    }
+    /* //header */
+    /* 메뉴 */
+    .menubg{
+        height: 100px;
+        top: 120px;
+    }
+    .menubg .menu::before{
+        width: 300px;
+        height: 2px;
+    }
+    .menubg .menu::after{
+        width: 300px;
+        height: 2px;
+    }
+    .menubg .menu li a{
+        font-size: 1em;
+        line-height: 100px;
+        padding: 0 15px;
+    }
+    /* //메뉴 */
+    /* logo */
+    .hwrap h1 a img{
+        width: 160px;
+    }
+    /* //logo */
+    /* 슬로건페이지 */
+    #slogan{
+        height: 280px;
+        background-image: url(../img/main1.jpg);
+        background-position: right;
+    }
+    #slogan p{
+        padding-top: 100px;
+        font-size: 2.3333em;
+        text-align: left;
+        padding-left: 25px;
+    }
+    /* //슬로건페이지 */
+    /* 배너 */
+    #banner{
+        width: 380px;
+        height: 110px;
+        margin: 40px 50% 0;
+        background-position: right;
+    }
+    #banner h2{
+        padding: 35px 0 0 20px;
+        font-size: 1em;
+    }
+    #banner p{
+        padding: 10px 0 0 62px;
+        font-size: 0.83333em;
+    }
+    /* //배너 */
+    /* 신제품 */
+    #newproduct{
+        padding: 0 20px;
+        margin-top: 50px;
+    }
+    #newproduct h2{
+        font-size: 1.66666em;
+        margin-bottom: 30px;
+    }
+    .newboxs{
+        grid-template-columns: 1fr 1fr;
+        gap: 50px 15px;
+    }
+    .newboxs dl .hashtag{
+        margin-top: 20px;
+        font-size: 0.83333em;
+    }
+    .newboxs dl .hashtag span{
+        display: none;
+    }
+    .newboxs dl .title{
+        font-size: 1em;
+        line-height: 22px;
+    }
+    .newboxs dl .price{
+        margin-top: 15px;
+    }
+    .newboxs dl .price .p1{
+        font-size: 1em;
+    }
+    .newboxs dl .price .p2{
+        font-size: 0.83333em;
+        padding-left: 13px;
+    }
+    .newboxs dl .price .p3{
+        font-size: 1em;
+        padding-left: 13px;
+    }
+    /* //신제품 */
+    /* 중간메뉴 */
+    #dotmenu{
+        width: 100%;
+    }
+    #dotmenu a{
+        width: 80px;
+        height: 80px;
+    }
+    #dotmenu a:nth-child(2) img{
+        margin-top: 10px;
+        width: 45px;
+    }
+    #dotmenu a:nth-child(3) img{
+        margin-top: 10px;
+        width: 45px;
+    }
+    #dotmenu a:nth-child(4) img{
+        margin-top: 20px;
+        width: 25px;
+    }
+    #dotmenu a:nth-child(5) img{
+        margin-top: 20px;
+        width: 30px;
+    }
+    #dotmenu a h3{
+        bottom: 12px;
+        font-size: 1em;
+    }
+    /* //중간메뉴 */
+    /* 정렬순 */
+    #align li .align{
+        font-size: 0.83333em;
+    }
+    #align li .align::after{
+        margin: 0 3px;
+        height: 16px;
+    }
+    #align li:nth-child(6){
+        line-height: 16px;
+    }
+    /* //정렬순 */
+    /* 전제품 */
+    #A-product{
+        grid-template-columns: 1fr 1fr;
+        gap: 50px 15px;
+        margin-top: 40px;
+    }
+    #allproduct{
+        padding: 0 20px;
+        margin-top: 80px;
+    }
+    #allproduct>p{
+        font-size: 1.66666em;
+        margin-bottom: 40px;
+        margin-top: 60px;
+    }
+    #allproduct>p br{
+        display: block !important;
+    }
+    #A-product .product .pick img{
+        width: 80px;
+    }
+    #A-product .product .pick span{
+        font-size: 1em;
+        top: 7px;
+        left: 15px;
+    }
+    #A-product dl .hashtag{
+        margin-top: 20px;
+        font-size: 0.83333em;
+    }
+    #A-product dl .hashtag span{
+        display: none;
+    }
+    #A-product dl .title{
+        font-size: 1em;
+        line-height: 22px;
+    }
+    #A-product dl .price{
+        margin-top: 15px;
+    }
+    #A-product dl .price .p1{
+        font-size: 1em;
+    }
+    #A-product dl .price .p2{
+        font-size: 0.83333em;
+        padding-left: 13px;
+    }
+    #A-product dl .price .p3{
+        font-size: 1em;
+        padding-left: 13px;
+    }
+    /* //전제품 */
+    /* 전제품 더보기 */
+    .allmore{
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+    .allmore img{
+        width: 30px;
+    }
+    .allmore span{
+        font-size: 1.333em;
+    }
+    /* //전제품 더보기 */
+    /* footer */
+    footer{
+        height: 435px;
+        padding: 20px 0 0 0;
+    }
+    footer>img{
+        display: none;
+    }
+    .fmenu{
+        margin-top: 0;
+        flex-wrap: wrap;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .fmenu li a{
+        font-size: 1.2307em;
+        padding: 10px 15px 10px 0px;
+    }
+    footer>span{
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #8D8D8D;
+        margin-top: 20px;
+    }
+    .fcontent{
+        font-size: 1em;
+        margin-top: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+    .fcontent p:nth-child(1){
+        line-height: 35px;
+    }
+    .fcontent p br:nth-child(2),
+    .fcontent p br:nth-child(3){
+        display: block !important;
+    }
+    .fcontent p:nth-child(2){
+        margin-top: 40px;
+    }
+    /* //footer */
+    /* 상하단버튼 */
+    #udbtn{
+        width: 40px;
+        height: 90px;
+        bottom: 20px;
+        right: 20px;
+    }
+    #top{
+        width: 40px;
+        height: 40px;
+    }
+    #top img{
+        width: 40px;
+        height: 40px;
+    }
+    #bottom{
+        width: 40px;
+        height: 40px;
+    }
+    #bottom img{
+        width: 40px;
+        height: 40px;
+    }
+    /* //상하단버튼 */
+}

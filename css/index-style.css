@@ -1,0 +1,567 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+}
+body, h1 , h2, h3, p, ul, li, a, dl, dt, dd, span{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+img{
+    display: block;
+}
+body{
+    font-size: 16px;
+    position: relative;
+}
+
+/* 아웃라인숨기기 */
+.hidden{
+    position: absolute;
+    margin-left: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+}
+/* //아웃라인숨기기 */
+
+/* header */
+header{
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    padding: 70px 100px 0 100px;
+}
+.hwrap{
+    width: 100%;
+    height: 71px;
+    display: flex;
+    justify-content: space-between;
+}
+.hwrap .menu{
+    display: flex;
+    align-self: flex-end;
+}
+.hwrap .menu img{
+    width: 37px;
+}
+.hwrap .menu span{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1em;
+    font-weight: 700;
+    color: #DD5650;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+.hwrap .close{
+    display: flex;
+    align-self: flex-end;
+    display: none;
+}
+.hwrap .close img{
+    width: 32px;
+}
+.hwrap .close span{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1em;
+    font-weight: 700;
+    color: #DD5650;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.hright{
+    display: flex;
+    align-self: flex-end;
+}
+.login{
+    display: flex;
+    margin-right: 30px;
+}
+.login img{
+    width: 22px;
+}
+.login span{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1em;
+    font-weight: 700;
+    color: #DD5650;
+    margin-left: 9px;
+    margin-top: 9px;
+}
+.cart{
+    display: flex;
+}
+.cart img{
+    width: 28px;
+}
+.cart span{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1em;
+    font-weight: 700;
+    color: #DD5650;
+    margin-left: 9px;
+    margin-top: 9px;
+}
+
+h1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* //header */
+
+/* 메뉴 */
+.menubg{
+    width: 100%;
+    height: 150px;
+    background-color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    z-index: 99;
+    display: none;
+}
+.menubg .menu{
+    display: flex;
+    justify-content: center;
+}
+.menubg .menu::before{
+    content: '';
+    width: 1000px;
+    height: 3px;
+    background-color: #DD5650;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.menubg .menu::after{
+    content: '';
+    width: 1000px;
+    height: 3px;
+    background-color: #DD5650;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.menubg .menu li a{
+    font-family: 'GmarketSansMedium';
+    font-size: 1.875em;
+    font-weight: 700;
+    color: #DD5650;
+    padding: 0 50px;
+    line-height: 150px;
+}
+/* //메뉴 */
+
+/* contents start */
+main{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* 슬로건페이지 */
+#slogan{
+    width: 100%;
+    height: 670px;
+    background-image: url(../img/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+#slogan p{
+    font-family: 'GmarketSansMedium';
+    font-size: 4.375em;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0px 14px 3px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 170px;
+}
+/* //슬로건페이지 */
+
+/* 베너 */
+#banner{
+    width: 1500px;
+    height: 280px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 100px 50% 0;
+    transform: translateX(-50%);
+}
+#banner h2{
+    font-family: 'GmarketSansMedium';
+    font-size: 3.125em;
+    font-weight: 700;
+    color: #D2C4C5;
+    text-shadow: 0px 12px 8px rgba(0, 0, 0, 0.5);
+    padding: 75px 0 0 140px;
+}
+#banner p{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.875em;
+    font-weight: 700;
+    color: #D2C4C5;
+    text-shadow: 0px 12px 8px rgba(0, 0, 0, 0.5);
+    padding: 31px 0 0 348px;
+}
+/* //베너 */
+
+/* 신제품페이지 */
+#newproduct{
+    width: 100%;
+    overflow: hidden;
+    padding: 0 100px;
+    margin-top: 200px;
+}
+#newproduct h2{
+    font-family: 'GmarketSansMedium';
+    font-size: 3.75em;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 97px;
+    color: #4A3534;
+}
+.newboxs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 90px;
+}
+.newboxs .product img{
+    width: 100%;
+}
+.newboxs dl{
+    display: flex;
+    flex-direction: column;
+}
+.newboxs dl .title{
+    order: 2;
+    font-family: 'GmarketSansMedium';
+    font-size: 1.375em;
+    font-weight: 700;
+    color: #4A3534;
+    margin-top: 10px;
+    line-height: 35px;
+    letter-spacing: -1px;
+}
+.newboxs dl .hashtag{
+    order: 1;
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1em;
+    font-weight: 600;
+    color: #B9B9B9;
+    margin-top: 30px;
+}
+.newboxs dl .price{
+    display: flex;
+    order: 3;
+    margin-top: 30px;
+}
+.newboxs dl .price .p1{
+    font-family: 'GmarketSansMedium';
+    font-size: 1.375em;
+    font-weight: 700;
+    color: #080808;
+}
+.newboxs dl .price .p2{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.125em;
+    font-weight: 900;
+    color: #E1E1E1;
+    padding-left: 20px;
+    align-self: flex-end;
+    text-decoration: line-through;
+}
+.newboxs dl .price .p3{
+    font-family: 'GmarketSansMedium';
+    font-size: 1.375em;
+    font-weight: 700;
+    color: #FF0C00;
+    padding-left: 20px;
+}
+/* //신제품페이지 */
+
+/* 전체제품페이지 */
+#allproduct{
+    width: 100%;
+    overflow: hidden;
+    padding: 0 100px;
+    margin-top: 266px;
+}
+
+/* 중간메뉴 */
+#dotmenu{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+#dotmenu a{
+    width: 180px;
+    height: 180px;
+    background-color: #DD5650;
+    border-radius: 50%;
+    position: relative;
+}
+#dotmenu a img{
+    margin: auto;
+}
+#dotmenu a:nth-child(2) img{
+    margin-top: 20px;
+}
+#dotmenu a:nth-child(3) img{
+    margin-top: 17px;
+}
+#dotmenu a:nth-child(4) img{
+    margin-top: 26px;
+}
+#dotmenu a:nth-child(5) img{
+    margin-top: 35px;
+}
+#dotmenu a h3{
+    font-family: 'GmarketSansMedium';
+    font-size: 1.4375em;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* //중간메뉴 */
+
+#allproduct>p{
+    font-family: 'GmarketSansMedium';
+    font-size: 3.75em;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 90px;
+    color: #4A3534;
+}
+#allproduct>p br{
+    display:none !important;
+}
+
+/* 정렬순 */
+#align{
+    display: flex;
+    justify-content: center;
+}
+#align li .align{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.5625em;
+    font-weight: 900;
+    color: #B9B9B9;
+    display: flex;
+    align-items: center;
+}
+#align li .align::after{
+    content: '';
+    display: block;
+    width: 2px;
+    height: 30px;
+    background-color: #B9B9B9;
+    margin: 0 12px;
+}
+#align li:nth-child(1) .align{
+    color: #DD5650;
+}
+#align li:nth-child(6){
+    line-height: 30px;
+}
+#align li:nth-child(6) .align::after{
+    display: none;
+}
+
+#align li .align .clicked{
+    color: #DD5650;
+}
+/* //정렬순 */
+
+/* 전체제품 */
+#A-product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 90px;
+    margin-top: 88px;
+}
+#A-product .product img{
+    width: 100%;
+}
+#A-product dl{
+    display: flex;
+    flex-direction: column;
+}
+#A-product dl .title{
+    order: 2;
+    font-family: 'GmarketSansMedium';
+    font-size: 1.375em;
+    font-weight: 700;
+    color: #4A3534;
+    margin-top: 10px;
+    line-height: 35px;
+    letter-spacing: -1px;
+}
+#A-product dl .hashtag{
+    order: 1;
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1em;
+    font-weight: 600;
+    color: #B9B9B9;
+    margin-top: 30px;
+}
+#A-product dl .price{
+    display: flex;
+    order: 3;
+    margin-top: 30px;
+}
+#A-product dl .price .p1{
+    font-family: 'GmarketSansMedium';
+    font-size: 1.375em;
+    font-weight: 700;
+    color: #080808;
+}
+#A-product dl .price .p2{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.125em;
+    font-weight: 900;
+    color: #E1E1E1;
+    padding-left: 20px;
+    align-self: flex-end;
+    text-decoration: line-through;
+}
+#A-product dl .price .p3{
+    font-family: 'GmarketSansMedium';
+    font-size: 1.375em;
+    font-weight: 700;
+    color: #FF0C00;
+    padding-left: 20px;
+}
+#A-product .product{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#A-product .product .pick{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#A-product .product .pick span{
+    font-family: 'GmarketSansMedium';
+    font-size: 1.25em;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 18px;
+}
+/* //전체제품 */
+
+/* 전체상품 더보기 */
+.allmore{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 130px;
+    margin-bottom: 290px;
+}
+.allmore span{
+    font-family: 'GmarketSansMedium';
+    font-size: 1.875em;
+    font-weight: 700;
+    color: #4A3534;
+}
+/* //전체상품 더보기 */
+/* //전체제품페이지 */
+/* //contents end */
+
+/* footer */
+footer{
+    width: 100%;
+    height: 580px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 55px 100px 0 100px;
+}
+.fmenu{
+    display: flex;
+    margin-top: 58px;
+}
+.fmenu li a{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.5em;
+    font-weight: 900;
+    color: #E8E8E8;
+    padding-right: 44px;
+}
+.fmenu li:nth-child(5) a{
+    padding-right: 0;
+}
+.fcontent{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #C4C4C4;
+    margin-top: 76px;
+}
+.fcontent p:nth-child(1){
+    line-height: 40px;
+}
+.fcontent p:nth-child(2){
+    margin-top: 77px;
+}
+.fcontent p br:nth-child(2),
+.fcontent p br:nth-child(3){
+    display: none !important;
+}
+/* //footer */
+
+/* 상하단버튼 */
+#udbtn{
+    width: 80px;
+    height: 170px;
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    z-index: 99;
+}
+#top{
+    width: 80px;
+    height: 80px;
+    background-color: #DD5650;
+    margin-bottom: 10px;
+}
+#bottom{
+    width: 80px;
+    height: 80px;
+    background-color: #DD5650;
+}
+/* //상하단버튼 */
