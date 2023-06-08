@@ -444,6 +444,7 @@
     .menubg .menu li a{
         font-size: 1.666em;
         line-height: 140px;
+        padding: 0 35px;
     }
     /* //메뉴 */
     /* logo */
@@ -686,7 +687,8 @@
     .menubg .menu li a{
         font-size: 1.666em;
         line-height: 120px;
-        padding: 0 30px;
+        padding: 0 25px;
+        font-weight: 500;
     }
     /* //메뉴 */
     /* logo */
@@ -938,7 +940,8 @@
     .menubg .menu li a{
         font-size: 1.666em;
         line-height: 120px;
-        padding: 0 30px;
+        padding: 0 15px;
+        font-weight: 500;
     }
     /* //메뉴 */
     /* logo */
@@ -1227,6 +1230,7 @@
     .menubg .menu::before{
         width: 300px;
         height: 2px;
+        top: 18px;
     }
     .menubg .menu::after{
         width: 300px;
@@ -1235,7 +1239,8 @@
     .menubg .menu li a{
         font-size: 1em;
         line-height: 100px;
-        padding: 0 15px;
+        padding: 0 10px;
+        font-weight: 500;
     }
     /* //메뉴 */
     /* logo */
